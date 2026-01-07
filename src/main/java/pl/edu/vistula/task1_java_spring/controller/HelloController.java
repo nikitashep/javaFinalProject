@@ -1,4 +1,4 @@
-package pl.edu.vistula.task1_java_spring;
+package pl.edu.vistula.task1_java_spring.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
