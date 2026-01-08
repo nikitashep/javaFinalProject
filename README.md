@@ -152,7 +152,7 @@ http://localhost:8080/console
 
 <img width="1470" height="956" alt="Screenshot 2026-01-08 at 01 34 49" src="https://github.com/user-attachments/assets/64267233-2be1-412f-9646-d029853e6eab" />
 
-3. GET (Trying to get product product which was created)
+3. GET (Trying to get product which was created)
 
 <img width="1470" height="956" alt="Screenshot 2026-01-08 at 01 35 20" src="https://github.com/user-attachments/assets/e23c706c-e05a-4ff7-ab4b-d359188bb3b8" />
 
