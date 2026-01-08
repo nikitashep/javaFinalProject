@@ -45,8 +45,10 @@ Task 1 is an introductory Spring Boot application created from scratch using **S
 1. The application is started from the main Spring Boot class.
 2. A controller handles HTTP GET requests sent to `localhost:8080`.
 3. One endpoint returns a simple text response.
+<img width="1470" height="956" alt="Screenshot 2026-01-08 at 01 29 05" src="https://github.com/user-attachments/assets/eee7a894-5db2-4a7e-bb2a-5280319c5e78" />
 4. Another endpoint returns an HTML view (`greeting.html`) rendered by Thymeleaf.
 5. Static resources (e.g. image/logo) are displayed on the page.
+<img width="1470" height="956" alt="Screenshot 2026-01-08 at 01 29 30" src="https://github.com/user-attachments/assets/2cf23dab-90d4-4ce2-8c96-8f4e67bfea6c" />
 
 ---
 
@@ -140,11 +142,44 @@ H2 Console:
 http://localhost:8080/console
 ```
 
-JDBC URL:
+### Testing every HTTP Method used in application
 
-```
-jdbc:h2:mem:testdb
-```
+1. POST (Creating 3 products):
+
+<img width="1470" height="956" alt="Screenshot 2026-01-08 at 01 34 31" src="https://github.com/user-attachments/assets/3b5692d5-b0f2-49f9-a036-654ba90085fc" />
+
+<img width="1470" height="956" alt="Screenshot 2026-01-08 at 01 34 41" src="https://github.com/user-attachments/assets/fb14d1e9-60aa-49ae-ae47-4d0673fc1e75" />
+
+<img width="1470" height="956" alt="Screenshot 2026-01-08 at 01 34 49" src="https://github.com/user-attachments/assets/64267233-2be1-412f-9646-d029853e6eab" />
+
+3. GET (Trying to get product product which was created)
+
+<img width="1470" height="956" alt="Screenshot 2026-01-08 at 01 35 20" src="https://github.com/user-attachments/assets/e23c706c-e05a-4ff7-ab4b-d359188bb3b8" />
+
+4. GET (Trying to get product which does not exist)
+
+<img width="1470" height="956" alt="Screenshot 2026-01-08 at 19 47 47" src="https://github.com/user-attachments/assets/58f4bd32-fff7-4e5d-9602-0051a1ca21cd" />
+
+5. PUT (Changing value in one of the products)
+
+<img width="1470" height="956" alt="Screenshot 2026-01-08 at 01 36 56" src="https://github.com/user-attachments/assets/e5447804-7dd0-4ce1-b705-e14b3e214edb" />
+
+6. GET ALL (Trying to get all products)
+
+<img width="1470" height="956" alt="Screenshot 2026-01-08 at 01 37 25" src="https://github.com/user-attachments/assets/722d4946-155d-4577-bb34-bde1eb542215" />
+
+7. DELETE (Deleting one of the products)
+
+<img width="1470" height="956" alt="Screenshot 2026-01-08 at 01 37 57" src="https://github.com/user-attachments/assets/407c2038-e9da-4796-a898-09f975735772" />
+
+Result:
+
+<img width="1470" height="956" alt="Screenshot 2026-01-08 at 01 38 09" src="https://github.com/user-attachments/assets/96d98838-19ca-4ca8-81ba-328c092fc5f8" />
+
+Result in Database:
+
+<img width="1470" height="956" alt="Screenshot 2026-01-08 at 01 39 50" src="https://github.com/user-attachments/assets/b75c5ce3-51c7-4db0-9241-a41159c9b24e" />
+
 ---
 
 ## Final Notes
